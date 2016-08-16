@@ -13,11 +13,10 @@ Note: vamos começar dando contexto
 
 ----
 
-<ul>
-  <li>Diferentes Formações</li>
-  <li>Muito o que estudar</li>
-  <li>Muitos recursos</li>
-</ul>
+* Diferentes formações
+* Muito o que estudar
+* Muitos recursos
+* Crescimento rápido
 
 Note:
 Temos twers dos mais diversos backgrounds e formações. Muitos de nós não
@@ -53,6 +52,7 @@ sala...
 
 Note: ...e pediu para que pensássemos em ações para ajudar o escritório
 nessa questão.
+Existem outras iniciativas noutros escritórios.
 Dessa atividade surgiu algumas idéias, como workshops por exemplo, e a
 que estamos aqui para falar é o Guia.
 
