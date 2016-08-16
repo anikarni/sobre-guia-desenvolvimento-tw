@@ -1,0 +1,23 @@
+{
+  "name": "sobre-guia-desenvolvimento-tw",
+  "version": "0.0.1",
+  "description": "talk sobre o guia de desenvolvimento técnico",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "reveal-md slides.md --theme thoughtworks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roberto/sobre-guia-desenvolvimento-tw.git"
+  },
+  "author": "Roberto Soares",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/roberto/sobre-guia-desenvolvimento-tw/issues"
+  },
+  "homepage": "https://github.com/roberto/sobre-guia-desenvolvimento-tw#readme",
+  "dependencies": {
+    "reveal-md": "0.0.30"
+  }
+}
