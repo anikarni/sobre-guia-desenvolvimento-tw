@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "reveal-md slides.md --theme thoughtworks --title 'Hora do Lanche'",
-    "build": "mkdir -p dist && cp -r {screenshots,pictures,theme} dist && cp -r node_modules/reveal.js/{css,js,lib,plugin} dist && reveal-md slides.md --theme thoughtworks --title 'Hora do Lanche' --static > dist/index.html"
+    "build": "mkdir -p dist && cp -r {screenshots,pictures,theme} dist && cp -r node_modules/reveal.js/{css,js,lib,plugin} dist && reveal-md slides.md --theme thoughtworks --title 'Hora do Lanche' --static > dist/index.html",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/roberto/sobre-guia-desenvolvimento-tw#readme",
   "dependencies": {
+    "gh-pages": "^0.11.0",
     "reveal-md": "0.0.30"
   }
 }
