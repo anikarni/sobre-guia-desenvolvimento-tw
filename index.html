@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Hora do Lanche</title>
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="theme/thoughtworks.css" id="theme">
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+        <script>
+          document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+        </script>
+    </head>
+    <body>
+
+        <div class="reveal">
+            <div class="slides"><section  data-markdown><script type="text/template"># Guia de Desenvolvimento Técnico
+<hr />
+<h4 class="subtitle">Hora do Lanche</h4>
+
+<aside class="notes" data-markdown>apresentação</aside></script></section><section ><section data-markdown><script type="text/template">
+<p class="subtitle">Senta que lá vem</p>
+## História
+
+<aside class="notes" data-markdown>vamos começar dando contexto</aside></script></section><section data-markdown><script type="text/template">
+<ul>
+  <li>Diferentes Formações</li>
+  <li>Muito o que estudar</li>
+  <li>Muitos recursos</li>
+</ul>
+
+<aside class="notes" data-markdown>Temos twers dos mais diversos backgrounds e formações. Muitos de nós não
+tem formação formal em TI.
+
+E mesmo sabendo que não importa para o papel que exercemos, entendemos
+que existem diversas áreas que devemos estudar para realizá-lo bem.
+
+Muitos recursos: livros, cursos online, blogs, vídeos. O que deixa muita
+gente perdida.</aside></script></section><section data-markdown><script type="text/template">
+<img src="pictures/marcos.png" class="picture" /> 
+
+<aside class="notes" data-markdown>Muitas pessoas estavam procurando o Marcos para falar sobre essas questões,
+já que ele tanto falava de Capabilities e ele então juntou todo mundo numa
+sala...</aside></script></section><section data-markdown><script type="text/template">
+<img src="pictures/anike.jpeg" class="picture" /> 
+<img src="pictures/bonat.jpeg" class="picture" /> 
+<img src="pictures/carolina.png" class="picture" /> 
+<img src="pictures/glauco.jpeg" class="picture" /> 
+<img src="pictures/marcelo.jpeg" class="picture" /> 
+<img src="pictures/marcos.png" class="picture" /> 
+<img src="pictures/jean.jpeg" class="picture" /> 
+<img src="pictures/jeff.jpeg" class="picture" /> 
+<img src="pictures/roberto.jpeg" class="picture" /> 
+<img src="pictures/rogerio.jpeg" class="picture" /> 
+
+<aside class="notes" data-markdown>...e pediu para que pensássemos em ações para ajudar o escritório
+nessa questão.
+Dessa atividade surgiu algumas idéias, como workshops por exemplo, e a
+que estamos aqui para falar é o Guia.</aside></script></section></section><section ><section data-markdown><script type="text/template">
+<p class="subtitle">O que é o</p>
+## Guia?
+
+<aside class="notes" data-markdown>Agora sim!</aside></script></section><section data-markdown><script type="text/template">
+![screenshot](screenshots/guia1.png)
+
+<aside class="notes" data-markdown>ler a visão</aside></script></section><section data-markdown><script type="text/template">
+![screenshot](screenshots/guia2.png)
+
+<aside class="notes" data-markdown>falar um pouco dos tópicos</aside></script></section><section data-markdown><script type="text/template">
+![screenshot](screenshots/guia3.png)
+
+<aside class="notes" data-markdown>falar da estrutura de um tópico: intro, sub tópicos e recursos</aside></script></section></section><section  data-markdown><script type="text/template">
+<p class="subtitle">Faltou o tópico "X"!</p>
+<p class="subtitle">Conheço um artigo muito bom!</p>
+## Como contribuir?
+
+<aside class="notes" data-markdown>público no github. não precisa ser PR, pode criar Issue.
+Não precisa clonar, pode editar pelo github.</aside></script></section><section  data-markdown><script type="text/template">
+## Perguntas? Sugestões?
+
+![screenshot](screenshots/guia1.png)
+</script></section><section  data-markdown><script type="text/template">
+# Muito Obrigado!
+</script></section></div>
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+
+        <script>
+            function extend() {
+              var target = {};
+              for (var i = 0; i < arguments.length; i++) {
+                var source = arguments[i];
+                for (var key in source) {
+                  if (source.hasOwnProperty(key)) {
+                    target[key] = source[key];
+                  }
+                }
+              }
+              return target;
+            }
+
+            // Optional libraries used to extend on reveal.js
+            var deps = [
+              { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+              { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+              { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+              { src: 'plugin/math/math.js', async: true }
+            ];
+
+            // default options to init reveal.js
+            var defaultOptions = {
+              controls: true,
+              progress: true,
+              history: true,
+              center: true,
+              transition: 'default',
+              dependencies: deps
+            };
+
+            // options from URL query string
+            var queryOptions = Reveal.getQueryHash() || {};
+
+            var options = {};
+            options = extend(defaultOptions, options, queryOptions);
+            Reveal.initialize(options);
+        </script>
+        
+          <script src="/scripts/hora-do-lanche-guia-de-excelencia"></script>
+    </body>
+</html>
+
