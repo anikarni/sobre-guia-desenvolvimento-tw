@@ -67,25 +67,21 @@ Note: Agora sim!
 
 ![screenshot](screenshots/guia1.png)
 
-Note: ler a visão
+Note: ler a visão e tópicos
 
 ----
 
 ![screenshot](screenshots/guia2.png)
 
-Note: falar um pouco dos tópicos
-
-----
-
-![screenshot](screenshots/guia3.png)
-
-Note: falar da estrutura de um tópico: intro, sub tópicos e recursos
+Note: estrutura de um tópico: intro, sub tópicos e recursos
 
 ---
 
 <p class="subtitle">Faltou o tópico "X"!</p>
 <p class="subtitle">Conheço um artigo muito bom!</p>
 ## Como contribuir?
+
+![screenshot](screenshots/contribua.png)
 
 Note: público no github. não precisa ser PR, pode criar Issue.
 Não precisa clonar, pode editar pelo github.
